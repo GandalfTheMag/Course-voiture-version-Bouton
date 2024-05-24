@@ -1,0 +1,136 @@
+body{
+    background-color: gray;
+    width: 100%;
+
+}
+#container-course{
+
+    width: 1100px;
+    margin:auto;
+    height: 300px;
+    background-image: url(./../img/cicruitlong.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+img{
+    width: 100px;
+
+}
+button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color:black;
+    background-color: yellow;
+    margin: auto;
+    margin-bottom:  30px;
+}
+#victoire1{
+
+    position: absolute;
+    width: 500px;
+    color: rgb(97, 5, 5);
+    margin-left: 25%;
+    top:60px;
+    font-size: xx-large;
+    font-weight: 800;
+    display: none;
+}
+#victoire2{
+
+    position: absolute;
+    width: 500px;
+    color: rgb(5, 5, 75);
+    margin-left: 25%;
+    top: 160px;
+    font-size: xx-large;
+    font-weight: 800;
+    display: none;
+}
+#stop{
+    display: none;
+}
+#reset{
+    display: none;
+}
+#play{
+    display: none;
+}
+#decompte{
+
+    position: absolute;
+    color: yellow;
+    margin-left: 35%;
+    top: 0px;
+    font-size:100px;
+    display: none;
+    
+}
+#confetti-canvas{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1100px;
+    height: 300px;
+}
+.container-score{
+    position: absolute;
+    margin: 0 40%;
+    top: 15px;
+    /*left: 500px;*/
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px gray;
+    background: linear-gradient(135deg, red 0%, yellow 100%);
+
+}
+.container-result{
+
+    display: flex;
+    text-align: center;
+}
+.res{
+    width:50%;
+    font-size: x-large;
+}
+#score{
+    font-weight: 500;
+    text-align: left;
+    margin-left: 15px;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 5px;
+}
+#scoreBleu{
+    color: rgb(5, 5, 75);
+    font-weight: 900;
+    /*-webkit-text-stroke: 0.05px white;*/
+   
+}
+#scoreRouge{
+    color: rgb(97, 5, 5);
+    font-weight: 900;
+    /*-webkit-text-stroke: 0.05px white;*/
+}
+.btn{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    
+}
+
+#time-box{
+    text-align: center;
+    width: 60px;
+    font-weight: 500;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    margin: 0 60%;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px gray;
+    background: linear-gradient(135deg, red 0%, yellow 100%);
+    
+}
+
